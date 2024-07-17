@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .section{
+            position: relative;
+        }
+        .main{
+            position: absolute;
+            margin-left: 300px;
+            margin-top: 70px;
+            height: 300px;
+            width: 170px;
+            border-radius:100px 100px 0px 0px;
+            border: 20px solid black;
+    
+        }
+        .main2{
+            position: absolute;
+            margin-top: 250px;
+            margin-left: 250px ;
+            border-radius: 50%;
+            background-color: brown;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+        }
+        i{
+            margin-left: 73px ;
+            margin-top: 75px ;
+    animation-name: car;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes car {
+    100% {
+        transform:rotate(360deg);
+
+        }
+    }
+    </style>
+
+</head>
+<body>
+    <section class="section">
+       <div class="main"></div>
+       <div class="main2"> <i class="fa-regular fa-compass fa-10x"></i></div>
+    </section>
+</body>
+</html>

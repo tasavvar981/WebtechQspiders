@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    .section {
+        width: 400px;
+        height: 500px;
+         margin: auto;
+         margin-top: 100px;
+        border: 2px solid black;
+    }
+    div.div1{
+        width: 400px;
+        height: 350px;
+        background-color: aquamarine;
+    }
+    div.div2{
+        width: 400px;
+        height: 150px;
+        background-color: rgb(1, 12, 8);
+    }
+    i{
+    animation-name: ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes ball {
+    0% {
+        transform: translate(0px);
+    }
+    16.16%{
+        transform: translate(80px,325px);
+        transition:all 2s 0s ease-in;
+    }
+    32.32%{
+        transform: translate(150px,50px);
+        transition:all 2s 0s ease-in;
+    }
+    48.48%{
+        transform: translate(300px,325px);
+        transition:all 2s 0s ease-in;
+    }
+    100%{
+           transform: translate(370px,100px);
+           transition:all 2s 0s ease-in;
+    }
+}
+    </style>
+</head>
+<body>
+    <section class="section">
+    <div class="div1"><i class="fa-solid fa-volleyball fa-2x"></i></div>
+    <div class="div2"></div>
+     </section>
+</body>
+</html>

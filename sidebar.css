@@ -1,0 +1,122 @@
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+.boxy {
+    height: 620px;
+        width: 250px;
+       border-radius: 10px;
+        background-color: rgb(167, 230, 235);
+        position: absolute;
+        margin-top: 10px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    
+
+}
+.boxy2{
+    height: 620px;
+    width:80px;
+    border-radius: 10px;
+    background-color: rgb(167, 230, 235);
+    margin-left: 280px;
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+#ne{
+    height: 55px;
+    width: 220px;
+    border-radius: 10px;
+    
+}
+#one{
+    height:55px;
+    width:60px;
+    border-radius: 10px;   
+}
+.fa-magnifying-glass {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left:15px ;
+}
+.fa-house{
+     font-size: 25px;
+    margin-top: 15px;
+    margin-left:15px ;
+}
+.fa-chart-simple{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left:15px ;
+
+}
+.fa-bell{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left:15px ;
+
+}
+.fa-chart-pie{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left:15px ;
+}
+.fa-heart{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left:15px ;
+}
+.fa-c{
+    font-size: 55px;
+    margin-left:10px ;
+    border-radius: 5px;
+    color: azure;
+    background-color: black;
+    
+
+}
+.fa-wallet {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.fa-right-from-bracket{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 15px
+}
+
+#ne:hover {
+    background-color: black;
+    color: white;
+  }
+  #one:hover{
+    background-color: black;
+    color: white;
+  }
+  .dva{
+    width: 300px;
+    height:20px;
+    background-color: brown;
+  }
+.box1{
+    background-color:black;
+    color:azure
+
+}
+
+   
+
+
+

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.arti {
+    height: 500px;
+        width: 500px;
+        border: 1px solid;
+        background-color: aqua;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content:center ;
+        align-items: ;
+}
+div{
+    height: 120px;
+    width: 120px;
+    border: 1px solid;
+    background-color: blanchedalmond;
+
+}
+
